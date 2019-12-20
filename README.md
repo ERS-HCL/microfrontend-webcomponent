@@ -1,6 +1,8 @@
-# MicrofrontendWebcomponent
+# Microfrontend Webcomponent
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+
+Looking for a Javascript integration approach or a multi technology web component approach . Please refer to [More Micro frontend solutions](https://github.com/ERS-HCL/micro-frontend/)
 
 ## Development server
 
