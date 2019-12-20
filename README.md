@@ -4,6 +4,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Microfrontend is an architectural approach for frontend where features has broken down into small independent deployable units. for detail information read here [Micro frontend Curry](https://levelup.gitconnected.com/micro-frontend-curry-506b98a4cfc0)
 
+## Why Web Component approach
+There are many variants avaliable to implement Microfront, like, Web component based,  JS run-time integration, Server side integration using ESI, SSE using Fragments and some streaming server like Tailor,js, etc.
+
+We have choosen Web component based approach becuase we think its more close to Frontend boundries. Also, its evident with current industry trends that companies are now moving towards technology agnostic solution, and using web component you can get meet this requirement quickly. 
+
+## How
+
+We choosen Angular as a framework of choice becuase in v8 you have direct access to Angular Elements, which later complies into webcomponent. Application Bundling approach - stitching feature app's together
+![Bundling](https://4.bp.blogspot.com/-DjBLjUGz23c/Xfylk6tW5QI/AAAAAAAAMgA/04o0M653f5QwE2wRLqwohJPHAfbwfqroQCK4BGAYYCw/s1600/app-bundling.png)
+
 ## Demo
 
 You can find working demo on Netlyfy, check this here [Microfronend](https://microfrontend.netlify.com/) and to check the single, independent running feature, click here  [microfrontend-team-movies](https://microfrontend-team-movies.netlify.com)
@@ -16,13 +26,7 @@ You can find working demo on Netlyfy, check this here [Microfronend](https://mic
 5. **Ease in setup** - Client side dynamic integration of Apps 
 
 ## High Level Design
-![Logical structure](https://1.bp.blogspot.com/-U6yrliNYzxs/Xfyla62jgmI/AAAAAAAAMf4/C2z-Q0RKc_wmjP89J0HD75LQJPGXq9QzQCK4BGAYYCw/s640/hld.png)
-
-## Inter App Communication Design
-![Cross communication](https://miro.medium.com/max/876/1*QusqsahREktw7OdFg5nVsg.png)
-
-## Application Bundling approach - stitching feature app's together
-![Bundling](https://4.bp.blogspot.com/-DjBLjUGz23c/Xfylk6tW5QI/AAAAAAAAMgA/04o0M653f5QwE2wRLqwohJPHAfbwfqroQCK4BGAYYCw/s640/app-bundling.png)
+![Logical structure](https://1.bp.blogspot.com/-U6yrliNYzxs/Xfyla62jgmI/AAAAAAAAMf4/C2z-Q0RKc_wmjP89J0HD75LQJPGXq9QzQCK4BGAYYCw/s1600/hld.png)
 
 
 ## Development server
