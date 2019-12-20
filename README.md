@@ -2,18 +2,28 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
-Microfrontend is an architectural approach for frontend where features has been breaking down into small independent deployable units. for detail information read here [Micro frontend Curry](https://levelup.gitconnected.com/micro-frontend-curry-506b98a4cfc0)
+Microfrontend is an architectural approach for frontend where features has broken down into small independent deployable units. for detail information read here [Micro frontend Curry](https://levelup.gitconnected.com/micro-frontend-curry-506b98a4cfc0)
 
 ## Demo
 
-You can find the running demo on Netlyfy, to check the complete demo, see this [Microfronend](https://microfrontend.netlify.com/) and to check the single, independent running feature of the above, click here,  [microfrontend-team-movies](https://microfrontend-team-movies.netlify.com)
+You can find working demo on Netlyfy, check this here [Microfronend](https://microfrontend.netlify.com/) and to check the single, independent running feature, click here  [microfrontend-team-movies](https://microfrontend-team-movies.netlify.com)
 
 ## Features
-1. Web components using Angular Elements
-2. Individual features Development - created Sub applications using [Angular CLI](https://angular.io/guide/file-structure)  
-3. Independent Deployment - Can deploy feature independently
-4. Cross feature communication - Custom event bus using pub-sub pattern
-5.  
+1. **WebComponents** using Angular Elements
+2. **Individual features Development** - created Sub applications using [Angular CLI](https://angular.io/guide/file-structure)  
+3. **Independent Deployment for scalability** - Can deploy feature independently 
+4. **Cross feature communication** - Custom event bus using pub-sub design pattern
+5. **Ease in setup** - Client side dynamic integration of Apps 
+
+## High Level Design
+![Logical structure](https://miro.medium.com/max/876/1*QusqsahREktw7OdFg5nVsg.png)
+
+## Inter App Communication Design
+![Cross communication](https://miro.medium.com/max/876/1*QusqsahREktw7OdFg5nVsg.png)
+
+## Application Bundling approach - stitching feature app's together
+![Bundling](https://miro.medium.com/max/876/1*QusqsahREktw7OdFg5nVsg.png)
+
 
 ## Development server
 
@@ -38,3 +48,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## License
+
+MIT
