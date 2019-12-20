@@ -12,7 +12,7 @@ You can find working demo on Netlyfy, check this here [Microfronend](https://mic
 ## Why Web Component approach
 There are many variants avaliable to implement Microfrontend, like, Web component based,  JS run-time integration, Server side integration using ESI, SSI using Fragments and some streaming server like Tailor.js, etc.
 
-We have choosen Web component based approach becuase we think its more close to Frontend boundries. Also, its evident with current industry trends that companies are now moving towards technology agnostic solutions, and using web component you can meet this requirement quickly. 
+We have choosen Web component based approach becuase we think its fit into the Frontend boundries. Also, its evident with current industry trends that companies are now moving towards technology agnostic solutions, and using web component you can meet this requirement quickly. 
 
 ## How this approach works
 
