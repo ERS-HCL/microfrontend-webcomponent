@@ -16,13 +16,13 @@ You can find working demo on Netlyfy, check this here [Microfronend](https://mic
 5. **Ease in setup** - Client side dynamic integration of Apps 
 
 ## High Level Design
-![Logical structure](https://miro.medium.com/max/876/1*QusqsahREktw7OdFg5nVsg.png)
+![Logical structure](https://1.bp.blogspot.com/-U6yrliNYzxs/Xfyla62jgmI/AAAAAAAAMf4/C2z-Q0RKc_wmjP89J0HD75LQJPGXq9QzQCK4BGAYYCw/s640/hld.png)
 
 ## Inter App Communication Design
 ![Cross communication](https://miro.medium.com/max/876/1*QusqsahREktw7OdFg5nVsg.png)
 
 ## Application Bundling approach - stitching feature app's together
-![Bundling](https://miro.medium.com/max/876/1*QusqsahREktw7OdFg5nVsg.png)
+![Bundling](https://4.bp.blogspot.com/-DjBLjUGz23c/Xfylk6tW5QI/AAAAAAAAMgA/04o0M653f5QwE2wRLqwohJPHAfbwfqroQCK4BGAYYCw/s640/app-bundling.png)
 
 
 ## Development server
