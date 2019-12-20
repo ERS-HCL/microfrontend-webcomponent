@@ -1,4 +1,4 @@
-# MicrofrontendWebcomponent
+# Microfrontend using Webcomponent
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
@@ -19,19 +19,19 @@ We have choosen Web component based approach becuase we think its more close to 
 We have choosen Angular as a framework of choice becuase in its v8 you have direct access to Angular Elements, which later complies into webcomponent. Please see below section for more detailed information 
 
 ## High Level Design
-There are four major challenges one need to solve to implement Microfrontend as a design solution
+There are four major challenges one need to solve to implement Microfrontend as a design solution. Lets quickly see what those are and how we solved it in our design
 
-1. Independent development of feature/modules : Angular supports independent feature development with the use of sub-application. Using [Angular CLI](https://angular.io/guide/file-structure) we can create multi sub applications. From outside, this very much looks like a mono-repo structure. See below for complete logical design 
+1. **Independent development of feature/modules :** With the use of sub-application CLI command Angular supports independent feature development . Using [Angular CLI](https://angular.io/guide/file-structure) we can create multi sub applications in a single project. This very much looks like a mono-repo structure. 
  
  ![Logical structure](https://1.bp.blogspot.com/-U6yrliNYzxs/Xfyla62jgmI/AAAAAAAAMf4/C2z-Q0RKc_wmjP89J0HD75LQJPGXq9QzQCK4BGAYYCw/s1600/hld.png)
 
-2. Integration of feature/modules in a common shell: In this approach, we are integrating feature/modules at compile time. Application Bundling approach - stitching feature app's together
+2. **Integration of feature/modules in a common shell :** There are multiple ways you can integrating feature apps into a common app. In our approach we are integrating feature/modules at run time. Application Bundling approach - stitching feature app's together
 
 ![Bundling](https://4.bp.blogspot.com/-DjBLjUGz23c/Xfylk6tW5QI/AAAAAAAAMgA/04o0M653f5QwE2wRLqwohJPHAfbwfqroQCK4BGAYYCw/s1600/app-bundling.png)
 
-3. Inter-communication between feature/modules: There are many patterns avaliable to do communication between different parts of application like HTML5 PostMessage API, Pub-sub based EventBUS, local storage, etc. In our design we have selected Pub-sub approach as its more robust and reactive way of doing communication.
+3. **Inter-communication between feature/modules :** There are many patterns avaliable to do communication between different parts of application like HTML5 PostMessage API, Pub-sub based EventBUS, local storage, etc. In our design we have selected Pub-sub approach as its more robust and reactive way of doing communication.
 
-4. Independent deployment of feature: There are CLI commands avaliable to run and deploy independent feature apps.
+4. **Independent deployment of feature :** There are CLI commands avaliable to run and deploy independent feature apps.
 
 ## Features
 1. **WebComponents** using Angular Elements
