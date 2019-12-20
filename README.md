@@ -2,13 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
 
-Microfrontend is an architectural approach for frontend where features has been breaking down into small independent deployble units. [Micro frontend Curry](https://levelup.gitconnected.com/micro-frontend-curry-506b98a4cfc0)
+Microfrontend is an architectural approach for frontend where features has been breaking down into small independent deployable units. for detail information read here [Micro frontend Curry](https://levelup.gitconnected.com/micro-frontend-curry-506b98a4cfc0)
 
-##Demo
+## Demo
 
 You can find the running demo on Netlyfy, to check the complete demo, see this [Microfronend](https://microfrontend.netlify.com/) and to check the single, independent running feature of the above, click here,  [microfrontend-team-movies](https://microfrontend-team-movies.netlify.com)
 
-##Features
+## Features
 1. Web components using Angular Elements
 2. Individual features Development - created Sub applications using [Angular CLI](https://angular.io/guide/file-structure)  
 3. Independent Deployment - Can deploy feature independently
